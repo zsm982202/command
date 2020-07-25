@@ -1,0 +1,12 @@
+git init
+git add .
+git commit -m "first commit"
+git remote add origin git@github.com:zsm982202/test.git
+git push -u origin master (--force)
+
+git remote -v
+git remote remove origin
+
+git checkout -b util
+//git branch util
+//git checkout util
